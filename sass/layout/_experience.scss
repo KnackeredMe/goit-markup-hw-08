@@ -1,0 +1,33 @@
+.experience__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience__item {
+  position: relative;
+}
+
+.experience__label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  height: 70px;
+  width: 100%;
+  text-align: center;
+
+  padding-top: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.experience__label-text {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-color);
+}

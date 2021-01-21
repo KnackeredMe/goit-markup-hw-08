@@ -1,0 +1,30 @@
+.clients__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients__link {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: border-color 250ms var(--timing-function);
+}
+
+.clients__logo {
+  height: 45px;
+  fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
+}
+
+.clients__link:hover,
+.clients__link:focus {
+  border-color: var(--accent-color);
+  .clients__logo {
+    fill: var(--accent-color);
+  }
+}

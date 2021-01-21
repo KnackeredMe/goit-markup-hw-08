@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+  .container {
+    display: flex;
+  }
+  .address {
+    margin-top: 20px;
+  }
+  .address__contact-info {
+    display: inline-block;
+    margin-top: 9px;
+  }
+}
+
+.follow-us {
+  font-family: var(--primary-font);
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-top: 12px;
+}
+
+.social__container {
+  margin-left: 70px;
+}

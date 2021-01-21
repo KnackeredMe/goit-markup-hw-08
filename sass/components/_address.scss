@@ -1,0 +1,47 @@
+.address__contact-info {
+  display: flex;
+  align-items: center;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-font-color);
+  transition: color 250ms var(--timing-function);
+}
+
+.address__contact-info:hover,
+.address__contact-info:focus {
+  color: var(--accent-color);
+  .address__mail-icon,
+  .address__phone-icon {
+    fill: var(--accent-color);
+  }
+}
+
+.address {
+  font-style: normal;
+}
+
+.address__place {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.address__mail-icon {
+  width: 18px;
+  height: 12px;
+  margin-right: 10px;
+  transition: fill 250ms var(--timing-function);
+}
+
+.address__phone-icon {
+  width: 12px;
+  height: 16px;
+  margin-right: 10px;
+  transition: fill 250ms var(--timing-function);
+}
