@@ -7,5 +7,11 @@
   letter-spacing: 0.03em;
   color: var(--heading-font-color);
 
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    margin-bottom: 50px;
+  }
 }
