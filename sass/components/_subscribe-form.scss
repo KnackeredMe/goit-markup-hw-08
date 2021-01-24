@@ -111,6 +111,18 @@
   margin-left: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .subscribe-form__label {
+    transform: translate(50%, 50%);
+  }
+
+  .subscribe-form__input:focus + .subscribe-form__label,
+  .subscribe-form__input:not(:placeholder-shown) + .subscribe-form__label {
+    transform: translate(50%, 50%);
+    opacity: 0;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .subscribe-form__container {
     flex-direction: row;
